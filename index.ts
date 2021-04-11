@@ -1,7 +1,7 @@
 import * as bodyParser from 'body-parser'
 import * as config from 'config'
 import * as express from 'express'
-import spawn from 'child_process'
+import { spawn } from 'child_process'
 import axios from 'axios'
 
 // Initialize
