@@ -6,6 +6,7 @@ import axios from 'axios'
 
 // Initialize
 const app = express()
+spawn('Xvfb', [':1', '-screen', '0', '1024x768x24'])
 
 // Configuration
 app.disable('x-powered-by')
